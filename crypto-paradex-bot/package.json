@@ -1,0 +1,26 @@
+{
+  "name": "crypto-paradex-bot",
+  "version": "1.0.0",
+  "description": "A cryptocurrency trading bot for Paradex platform using StarkNet authentication",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bot",
+    "paradex",
+    "starknet",
+    "blockchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "starknet": "^5.14.1",
+    "dotenv": "^16.3.1"
+  }
+}

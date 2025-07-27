@@ -1,0 +1,74 @@
+{
+    "platforms": [
+        {
+            "name": "SmartTender",
+            "url": "https://smarttender.biz/publichni-zakupivli-prozorro/?s=3",
+            "selector": ".tender-item",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "DZO",
+            "url": "https://www.dzo.com.ua/tenders/current",
+            "selector": ".tender-list-item",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-text"
+        },
+        {
+            "name": "Prom.ua Commercial",
+            "url": "https://zakupki.prom.ua/commercial/tenders?status=2",
+            "selector": ".tender-card",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "Prom.ua Government",
+            "url": "https://zakupki.prom.ua/gov/tenders?status=2",
+            "selector": ".tender-card",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "Zakupki.ua",
+            "url": "https://zakupki.com.ua/tender/list",
+            "selector": ".tender-item",
+            "title_selector": ".tender-name",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "UUB",
+            "url": "https://tender.uub.com.ua/PositionList.aspx",
+            "selector": ".tender-row",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-details"
+        },
+        {
+            "name": "Zakupivli24",
+            "url": "https://zakupivli24.pb.ua/new/",
+            "selector": ".tender-list-item",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "NewTend",
+            "url": "https://b2b.newtend.com/opc/provider/search/",
+            "selector": ".tender-item",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        },
+        {
+            "name": "IZI Trade",
+            "url": "https://izi.trade/tenders",
+            "selector": ".tender-card",
+            "title_selector": ".tender-title",
+            "description_selector": ".tender-description"
+        }
+    ],
+    "settings": {
+        "check_interval": 30,
+        "message_expiration": 180,
+        "duplicate_threshold": 0.9,
+        "max_retries": 3,
+        "retry_delay": 5
+    }
+}

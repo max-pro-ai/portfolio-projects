@@ -1,0 +1,40 @@
+# PowerShell
+*.ps1.log
+*.log
+*.bak
+
+# Configuration files with sensitive data
+config/*.json
+!config/*.example.json
+
+# Backup files
+backups/
+*.bak
+*.trn
+*.diff
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
