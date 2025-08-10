@@ -1,0 +1,90 @@
+.rbd-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Карточка бренда — теперь вертикальная */
+.rbd-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: inherit;
+  opacity: 0;
+  transform: scale(0.85);
+  animation: rbdFadeIn 0.6s ease-out forwards;
+}
+
+/* Лого — по центру, больше */
+.rbd-logo-wrap {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+.rbd-logo {
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.rbd-card:hover .rbd-logo {
+  transform: scale(1);
+}
+
+/* Описание */
+.rbd-desc {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+/* Кнопка */
+.rbd-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #4b9cff, #1a73e8);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.rbd-link:hover {
+  background: linear-gradient(135deg, #1a73e8, #0b66ff);
+}
+
+/* Анимация появления */
+@keyframes rbdFadeIn {
+  0% { opacity: 0; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Сообщения загрузки/ошибки */
+.rbd-loading, .rbd-error {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Адаптив */
+@media (max-w
