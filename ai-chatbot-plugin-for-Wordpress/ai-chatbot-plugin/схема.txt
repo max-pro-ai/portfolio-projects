@@ -1,0 +1,17 @@
+ai-chatbot-plugin/
+├── ai-chatbot.php                 # Главный файл (уже создан)
+├── admin/
+│   └── settings-page.php          # Страница настроек (уже создана)
+├── assets/
+│   ├── css/
+│   │   └── chatbot.css           # Стили (уже созданы)
+│   ├── js/
+│   │   └── chatbot.js            # JavaScript (уже создан)
+│   └── img/
+│       └── default-avatar.png     # Аватар по умолчанию (нужно добавить)
+├── templates/
+│   └── chat-widget.php           # Шаблон виджета (уже создан)
+├── includes/
+│   ├── class-openai-api.php      # API класс (уже создан)
+│   └── class-chat-handler.php    # Обработчик чата (уже создан)
+└── readme.txt                    # Описание плагина (уже создано)
